@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="az">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+        <link rel="stylesheet" href="assets/styles/styles.css" />
+
+        <title>Advanto | Səyahət və Turizm</title>
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-header">
+                <div class="nav-logo">
+                    <a href="#home">
+                        <img src="assets/images/logo.png" alt="Advanto logo" />
+                    </a>
+                </div>
+
+                <div class="menu-btn" id="menu-btn">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Ana səhifə</a></li>
+                <li><a href="#about">Haqqımızda</a></li>
+                <li><a href="#tours">Turlar</a></li>
+                <li><a href="#contact">Əlaqə</a></li>
+                <li>
+                    <button class="btn">
+                        Səyahət planla
+                        <span>
+                            <i class="ri-arrow-right-long-line"></i>
+                        </span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="container header" id="home">
+            <div class="header-image">
+                <img src="assets/images/header.png" alt="Səyahət" />
+            </div>
+
+            <div class="header-content">
+                <img src="assets/images/plane.png" alt="Təyyarə" />
+
+                <h1>Dünyanı kəşf et və səyahətindən zövq al</h1>
+
+                <p class="description">
+                    Advanto ilə möhtəşəm məkanları kəşf edin və unudulmaz
+                    xatirələr yaradın. Təbiətin gözəlliyindən canlı şəhərlərə
+                    qədər növbəti səyahətiniz sizi gözləyir. Xəyalınızdakı
+                    səyahəti birlikdə reallaşdıraq.
+                </p>
+
+                <form action="/">
+                    <div class="input-group">
+                        <label for="location">
+                            <span>
+                                <i class="ri-map-pin-line"></i>
+                            </span>
+                            Məkan
+                        </label>
+
+                        <input
+                            type="text"
+                            id="location"
+                            name="location"
+                            placeholder="Səhra, Əlcəzair"
+                        />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="date">
+                            <span>
+                                <i class="ri-calendar-line"></i>
+                            </span>
+                            Tarix
+                        </label>
+
+                        <input
+                            type="text"
+                            id="date"
+                            name="date"
+                            placeholder="18 dekabr 2024"
+                        />
+                    </div>
+
+                    <button class="btn" type="submit" aria-label="Axtar">
+                        <i class="ri-search-line"></i>
+                    </button>
+                </form>
+            </div>
+        </header>
+
+        <section class="about" id="about">
+            <div class="container about-container">
+                <div class="about-image">
+                    <img src="assets/images/about.jpg" alt="Səyahət haqqında" />
+                </div>
+
+                <div class="about-content">
+                    <h2 class="section-title">
+                        Yeni bir macəra üçün <span>vaxtdır!</span> Daha çox
+                        gözləmə.
+                    </h2>
+
+                    <p class="description">
+                        Advanto-da hər səyahətin danışılmağa dəyər bir hekayə
+                        olduğuna inanırıq. Təbiətin sakitliyini, tarixi
+                        şəhərləri və ya yeni mədəniyyətləri kəşf etmək
+                        istəyinizdən asılı olmayaraq, səyahət arzularınızı
+                        gerçəkləşdirmək üçün yanınızdayıq. Çantalarınızı
+                        hazırlayın, rahat zonanızdan çıxın və növbəti böyük
+                        təcrübənizə doğru Advanto ilə yola çıxın.
+                    </p>
+
+                    <div class="signature">Advanto</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container tours" id="tours">
+            <h3 class="section-subtitle">Tur növü</h3>
+
+            <h2 class="section-title">Tur növünü seç</h2>
+
+            <div class="tour-grid">
+                <div class="tour-card">
+                    <img src="assets/images/tour-1.jpg" alt="Meşə macərası" />
+                    <h4>Meşə macəraları</h4>
+                    <p>15+ tur</p>
+                </div>
+
+                <div class="tour-card">
+                    <img src="assets/images/tour-2.jpg" alt="Dağ gəzintisi" />
+                    <h4>Dağ yürüşləri</h4>
+                    <p>10+ tur</p>
+                </div>
+
+                <div class="tour-card">
+                    <img src="assets/images/tour-3.jpg" alt="Çimərlik tətili" />
+                    <h4>Çimərlik tətilləri</h4>
+                    <p>18+ tur</p>
+                </div>
+
+                <div class="tour-card">
+                    <img src="assets/images/tour-4.jpg" alt="Şəhər turu" />
+                    <h4>Şəhər turları</h4>
+                    <p>12+ tur</p>
+                </div>
+            </div>
+
+            <div class="tour-btn">
+                <button class="btn">
+                    Hamısına bax
+                    <span>
+                        <i class="ri-arrow-right-long-line"></i>
+                    </span>
+                </button>
+            </div>
+        </section>
+
+        <section class="destination">
+            <div class="container destination-container">
+                <h3 class="section-subtitle">Ən yaxşı istiqamətlər</h3>
+
+                <h2 class="section-title">Ən populyar istiqamətlərimiz</h2>
+
+                <div class="destination-grid">
+                    <div class="destination-card">
+                        <img
+                            src="assets/images/destination-1.jpg"
+                            alt="Paris, Fransa"
+                        />
+
+                        <div class="destination-content">
+                            <h4>Sevgi şəhərinin möhtəşəm turundan zövq alın</h4>
+                            <h5>Paris, Fransa</h5>
+
+                            <div class="destination-footer">
+                                <h6>$2300</h6>
+                                <p>6 gün</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <img
+                            src="assets/images/destination-2.jpg"
+                            alt="Bali, İndoneziya"
+                        />
+
+                        <div class="destination-content">
+                            <h4>
+                                Təmiz çimərlikləri ilə cənnət məkanını kəşf edin
+                            </h4>
+                            <h5>Bali, İndoneziya</h5>
+
+                            <div class="destination-footer">
+                                <h6>$1800</h6>
+                                <p>7 gün</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <img
+                            src="assets/images/destination-3.jpg"
+                            alt="Dubay, BƏƏ"
+                        />
+
+                        <div class="destination-content">
+                            <h4>Lüks və innovasiyanın şəhərini kəşf edin</h4>
+                            <h5>Dubay, BƏƏ</h5>
+
+                            <div class="destination-footer">
+                                <h6>$2500</h6>
+                                <p>5 gün</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="destination-btn">
+                    <button class="btn">
+                        Hamısına bax
+                        <span>
+                            <i class="ri-arrow-right-long-line"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="container reviews">
+            <div class="review-image">
+                <img src="assets/images/review.png" alt="Müştəri rəyləri" />
+            </div>
+
+            <div class="review-content">
+                <h3 class="section-subtitle">Ən yaxşı rəylər</h3>
+
+                <h2 class="section-title">
+                    Müştərilərimizin bizim haqqımızda fikirləri
+                </h2>
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="review-card">
+                                <span>
+                                    <i class="ri-double-quotes-l"></i>
+                                </span>
+
+                                <p class="description">
+                                    Advanto xəyalımdakı səyahəti gerçəkləşdirdi.
+                                    Planlaşdırmadan başlayaraq bütün
+                                    mərhələlərdə peşəkar tövsiyələr aldım.
+                                    Səyahət proqramı ehtiyaclarıma uyğun
+                                    hazırlandı və bütün proses rahat keçdi.
+                                </p>
+
+                                <h4>Emily Roberts</h4>
+                                <h5>Səyahət bloqeri</h5>
+
+                                <div>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="review-card">
+                                <span>
+                                    <i class="ri-double-quotes-l"></i>
+                                </span>
+
+                                <p class="description">
+                                    Advanto ilə yeni məkanları kəşf etmək
+                                    səyahət təcrübəmi tamamilə dəyişdi. Fotoqraf
+                                    olaraq möhtəşəm mənzərələr və fərqli
+                                    mədəniyyətlər axtarıram. Bu səyahətdə hər
+                                    məkan mənim üçün xüsusi oldu.
+                                </p>
+
+                                <h4>Michael Johnson</h4>
+                                <h5>Fotoqraf</h5>
+
+                                <div>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="review-card">
+                                <span>
+                                    <i class="ri-double-quotes-l"></i>
+                                </span>
+
+                                <p class="description">
+                                    İş üçün çox səyahət etmişəm, amma Advanto
+                                    mənə stresssiz istirahət imkanı verdi. Hava
+                                    limanından transferdən tutmuş bələdçi
+                                    turlarına qədər hər şey diqqətlə təşkil
+                                    olunmuşdu. Səyahət proqramı macəra və
+                                    istirahət arasında yaxşı balans yaradırdı.
+                                </p>
+
+                                <h4>Sophia Lee</h4>
+                                <h5>Biznes məsləhətçisi</h5>
+
+                                <div>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                    <span><i class="ri-star-fill"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="container blog-container">
+                <h3 class="section-subtitle">Son xəbərlər və bloqlar</h3>
+
+                <h2 class="section-title">Son yazılarımız</h2>
+
+                <div class="blog-grid">
+                    <div class="blog-card">
+                        <img
+                            src="assets/images/blog-1.jpg"
+                            alt="Səyahət istiqamətləri"
+                        />
+
+                        <div class="blog-content">
+                            <h4>
+                                Növbəti səyahətiniz üçün mütləq görməli
+                                olduğunuz 10 məkan
+                            </h4>
+
+                            <button class="btn">
+                                Ətraflı oxu
+                                <span>
+                                    <i class="ri-arrow-right-long-line"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img
+                            src="assets/images/blog-2.jpg"
+                            alt="Səyahət məsləhətləri"
+                        />
+
+                        <div class="blog-content">
+                            <h4>Rahat səyahət üçün vacib məsləhətlər</h4>
+
+                            <button class="btn">
+                                Ətraflı oxu
+                                <span>
+                                    <i class="ri-arrow-right-long-line"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="blog-card">
+                        <img
+                            src="assets/images/blog-3.jpg"
+                            alt="Gizli səyahət məkanları"
+                        />
+
+                        <div class="blog-content">
+                            <h4>
+                                Unikal səyahətlər üçün gizli məkanları kəşf edin
+                            </h4>
+
+                            <button class="btn">
+                                Ətraflı oxu
+                                <span>
+                                    <i class="ri-arrow-right-long-line"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-btn">
+                    <button class="btn">
+                        Hamısına bax
+                        <span>
+                            <i class="ri-arrow-right-long-line"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner">
+            <div class="banner-wrapper">
+                <img src="assets/images/banner-1.jpg" alt="Səyahət" />
+                <img src="assets/images/banner-2.jpg" alt="Səyahət" />
+                <img src="assets/images/banner-3.jpg" alt="Səyahət" />
+                <img src="assets/images/banner-4.jpg" alt="Səyahət" />
+                <img src="assets/images/banner-5.jpg" alt="Səyahət" />
+                <img src="assets/images/banner-6.jpg" alt="Səyahət" />
+                <img src="assets/images/banner-7.jpg" alt="Səyahət" />
+                <img src="assets/images/banner-8.jpg" alt="Səyahət" />
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="container footer-container">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Advanto logo" />
+                </div>
+
+                <ul class="footer-links">
+                    <li><a href="#home">Ana səhifə</a></li>
+                    <li><a href="#about">Haqqımızda</a></li>
+                    <li><a href="#tours">Turlar</a></li>
+                    <li><a href="#contact">Əlaqə</a></li>
+                </ul>
+
+                <ul class="footer-socials">
+                    <li>
+                        <a href="#" aria-label="Facebook">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" aria-label="Twitter">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" aria-label="Instagram">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="assets/scripts/main.js"></script>
+    </body>
+</html>
